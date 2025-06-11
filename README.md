@@ -57,3 +57,10 @@ curl --location 'http://127.0.0.1:8000/booking/book' \
         "course_id": 3
         }'
 ```
+### 6. Test run
+To run the test scenarios, run the command
+```commandline
+python manage.py test
+```
+
+> **_NOTE:_**  Every operation mentioned are supposed to run from, inside the 'Fitness_booking' folder
