@@ -44,7 +44,7 @@ def book(request):
         except Exception as e:
             exc_type, exc_obj, exc_tb = sys.exc_info()
             print(f"Exception occurred in book: {str(e)} at line no. {str(exc_tb.tb_lineno)}")
-            return None
+            return HttpResponse(status=400)
     else:
         return JsonResponse({"error": "Unsupported method"}, status=415)
 
@@ -74,7 +74,7 @@ def fetch_bookings(request):
         except Exception as e:
             exc_type, exc_obj, exc_tb = sys.exc_info()
             print(f"Exception occurred in fetch_bookings: {str(e)} at line no. {str(exc_tb.tb_lineno)}")
-            return None
+            return HttpResponse(status=400)
     else:
         return JsonResponse({"error": "Unsupported method"}, status=415)
 
@@ -104,6 +104,6 @@ def fetch_classes(request):
     except Exception as e:
         exc_type, exc_obj, exc_tb = sys.exc_info()
         print(f"Exception occurred in fetch_classes: {str(e)} at line no. {str(exc_tb.tb_lineno)}")
-        return None
+        return HttpResponse(status=400)
     else:
         return JsonResponse({"error": "Unsupported method"}, status=415)
