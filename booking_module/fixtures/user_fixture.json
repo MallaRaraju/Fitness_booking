@@ -1,0 +1,62 @@
+[
+  {
+    "model": "booking_module.user",
+    "pk": 1,
+    "fields": {
+      "username": "rahul123",
+      "email": "rahul@example.com",
+      "gender": "M",
+      "age": 27,
+      "full_name": "Rahul Sharma",
+      "password": "pbkdf2_sha256$1000000$6SDwpfztNEDvTRFLR1PYYE$ulX5N9nK5WjTURJeUJsr9EwNMmcLTHKIZ2oDd6ElGw0="
+    }
+  },
+  {
+    "model": "booking_module.user",
+    "pk": 2,
+    "fields": {
+      "username": "anita87",
+      "email": "anita@example.com",
+      "gender": "F",
+      "age": 32,
+      "full_name": "Anita Verma",
+      "password": "pbkdf2_sha256$1000000$kJHeI7RFkcHYB8rUzAXx3u$aTsWNAER8N0+daN8rs/QgE2GBZEkQtIh2iwvhNDS3/k="
+    }
+  },
+  {
+    "model": "booking_module.user",
+    "pk": 3,
+    "fields": {
+      "username": "mohit_01",
+      "email": "mohit@example.com",
+      "gender": "M",
+      "age": 22,
+      "full_name": "Mohit Gupta",
+      "password": "pbkdf2_sha256$1000000$X4m1Li2zL8oxaSsYy5ozKt$nVcRxtGg13C9r9fA8TysssKCqsy9/T0RFH/Ta4vuWV0="
+    }
+  },
+  {
+  "model": "booking_module.user",
+  "pk": 4,
+  "fields": {
+    "username": "sneha_92",
+    "email": "sneha@example.com",
+    "gender": "F",
+    "age": 29,
+    "full_name": "Sneha Kapoor",
+    "password": "pbkdf2_sha256$1000000$eyl16kHuul5ClfJjTz3Fii$9Usf7dgIGKqQPDt/zzgVO6UywiNF49N4LI2UnP7zAjU="
+  }
+},
+{
+  "model": "booking_module.user",
+  "pk": 5,
+  "fields": {
+    "username": "alex_q",
+    "email": "alex@example.com",
+    "gender": "O",
+    "age": 31,
+    "full_name": "Alex Quinn",
+    "password": "pbkdf2_sha256$1000000$5eTqN2GQ0rzIXq3QLftLz2$42bMbGlrllD00qOyTmnalFaEOBCWe21NbVb/nar3NT4="
+  }
+}
+]

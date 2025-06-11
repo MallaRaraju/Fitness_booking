@@ -1,0 +1,130 @@
+[
+  {
+    "model": "booking_module.instructor",
+    "pk": 1,
+    "fields": {"name": "Anjali Mehra", "age": 28, "gender": "F"}
+  },
+  {
+    "model": "booking_module.instructor",
+    "pk": 2,
+    "fields": {"name": "Rajiv Kumar", "age": 35, "gender": "M"}
+  },
+  {
+    "model": "booking_module.instructor",
+    "pk": 3,
+    "fields": {"name": "Sneha Singh", "age": 30, "gender": "F"}
+  },
+  {
+    "model": "booking_module.instructor",
+    "pk": 4,
+    "fields": {"name": "Arjun Das", "age": 40, "gender": "M"}
+  },
+  {
+    "model": "booking_module.instructor",
+    "pk": 5,
+    "fields": {"name": "Fatima Khan", "age": 33, "gender": "F"}
+  },
+
+  {
+    "model": "booking_module.slot",
+    "pk": 1,
+    "fields": {"slot_name": "Morning", "start_time": "06:00:00", "end_time": "07:00:00"}
+  },
+  {
+    "model": "booking_module.slot",
+    "pk": 2,
+    "fields": {"slot_name": "Mid-Morning", "start_time": "08:00:00", "end_time": "09:00:00"}
+  },
+  {
+    "model": "booking_module.slot",
+    "pk": 3,
+    "fields": {"slot_name": "Noon", "start_time": "12:00:00", "end_time": "13:00:00"}
+  },
+  {
+    "model": "booking_module.slot",
+    "pk": 4,
+    "fields": {"slot_name": "Evening", "start_time": "18:00:00", "end_time": "19:00:00"}
+  },
+  {
+    "model": "booking_module.slot",
+    "pk": 5,
+    "fields": {"slot_name": "Late Evening", "start_time": "20:00:00", "end_time": "21:00:00"}
+  },
+
+  {
+    "model": "booking_module.course",
+    "pk": 1,
+    "fields": {
+      "course_name": "Yoga Basics",
+      "cost": 500,
+      "description": "Stretching & breathing techniques",
+      "total_intake": 30
+    }
+  },
+  {
+    "model": "booking_module.course",
+    "pk": 2,
+    "fields": {
+      "course_name": "Power Yoga",
+      "cost": 700,
+      "description": "Fast-paced yoga",
+      "total_intake": 25
+    }
+  },
+  {
+    "model": "booking_module.course",
+    "pk": 3,
+    "fields": {
+      "course_name": "Zumba",
+      "cost": 600,
+      "description": "High-energy dance workout",
+      "total_intake": 40
+    }
+  },
+  {
+    "model": "booking_module.course",
+    "pk": 4,
+    "fields": {
+      "course_name": "Strength Core",
+      "cost": 800,
+      "description": "Resistance and weight training",
+      "total_intake": 20
+    }
+  },
+  {
+    "model": "booking_module.course",
+    "pk": 5,
+    "fields": {
+      "course_name": "Pilates",
+      "cost": 550,
+      "description": "Core and flexibility improvement",
+      "total_intake": 20
+    }
+  },
+
+  {
+    "model": "booking_module.coursemanagement",
+    "pk": 1,
+    "fields": {"slot": 1, "course": 1, "instructor": 1, "available_seats": 30}
+  },
+  {
+    "model": "booking_module.coursemanagement",
+    "pk": 2,
+    "fields": {"slot": 2, "course": 2, "instructor": 2, "available_seats": 25}
+  },
+  {
+    "model": "booking_module.coursemanagement",
+    "pk": 3,
+    "fields": {"slot": 4, "course": 3, "instructor": 3, "available_seats": 40}
+  },
+  {
+    "model": "booking_module.coursemanagement",
+    "pk": 4,
+    "fields": {"slot": 5, "course": 4, "instructor": 4, "available_seats": 20}
+  },
+  {
+    "model": "booking_module.coursemanagement",
+    "pk": 5,
+    "fields": {"slot": 3, "course": 5, "instructor": 5, "available_seats": 20}
+  }
+]
