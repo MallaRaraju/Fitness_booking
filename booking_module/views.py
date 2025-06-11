@@ -71,6 +71,10 @@ def fetch_bookings(request):
             return JsonResponse({'response': response_json})
         except Booking.DoesNotExist:
             return JsonResponse({"error": "no bookings were done"}, status=404)
+        except Exception as e:
+            exc_type, exc_obj, exc_tb = sys.exc_info()
+            print(f"Exception occurred in fetch_bookings: {str(e)} at line no. {str(exc_tb.tb_lineno)}")
+            return None
     else:
         return JsonResponse({"error": "Unsupported method"}, status=415)
 
