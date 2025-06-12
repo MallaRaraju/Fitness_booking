@@ -1,7 +1,5 @@
-from tkinter.font import names
-
-from django.urls import path
 from booking_module import views
+from django.urls import path
 
 urlpatterns = [
     path("book", views.book, name = "book"),

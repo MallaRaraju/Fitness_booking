@@ -14,7 +14,10 @@ A Django-based web application to manage fitness class bookings, course availabi
 
 ## 🚀 Quick Start
 
-Follow the steps below to clone, set up, and run the application.
+> **_NOTE:_** change the log folder path in configuration>constants.py-->'Log_Folder'.
+
+
+Follow the steps below to set up, and run the application.
 
 ### 1. (Optional) Modify Fixtures
 Update fixture files in booking_module/fixtures/ if you want to pre-load additional data.
@@ -63,4 +66,4 @@ To run the test scenarios, run the command
 python manage.py test
 ```
 
-> **_NOTE:_**  Every operation mentioned are supposed to run from, inside the 'Fitness_booking' folder
+> **_NOTE:_**  Every operation mentioned are supposed to run from, inside the 'Fitness_booking' folder.
